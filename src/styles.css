@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import "assets/css/blue.css";
-@import "assets/css/cyan.css";
-@import "assets/css/default.css";
 @import "assets/css/green.css";
-@import "assets/css/indigo.css";
 @import "assets/css/orange.css";
 @import "assets/css/pink.css";
 @import "assets/css/purple.css";
 @import "assets/css/red.css";
 @import "assets/css/yellow.css";
+@import "assets/css/indigo.css";
+@import "assets/css/default.css";
+@import "assets/css/cyan.css";
 
