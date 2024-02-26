@@ -1,0 +1,53 @@
+<section class="smart-scroll fixed-top">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <a class="navbar-brand heading-black" href="index.html">
+        ANDRONIC
+      </a>
+      <!--<button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+              data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span data-feather="grid"></span>
+      </button>-->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <button class="btn btn-custom btn-oval">
+              <em data-feather="layout" width="18" height="18" class="mr-2"></em>
+              GET CONSULTATION
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="right-menu">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <button [ngClass]="{'active': activeButton === '#home', 'bigger-font': activeButton === '#home'}" class="custom-nav-link page-scroll" (click)="scrollTo('#home')">Home</button>
+        </li>
+        <li class="nav-item">
+          <button [ngClass]="{'active': activeButton === '#recent', 'bigger-font': activeButton === '#recent'}" class="custom-nav-link page-scroll" (click)="scrollTo('#recent')">Recent</button>
+        </li>
+        <li class="nav-item">
+          <button [ngClass]="{'active': activeButton === '#actually', 'bigger-font': activeButton === '#actually'}" class="custom-nav-link page-scroll" (click)="scrollTo('#actually')">Actually</button>
+        </li>
+        <li class="nav-item">
+          <button [ngClass]="{'active': activeButton === '#faq', 'bigger-font': activeButton === '#faq'}" class="custom-nav-link page-scroll" (click)="scrollTo('#faq')">FAQ</button>
+        </li>
+        <li class="nav-item">
+          <button [ngClass]="{'active': activeButton === '#blog', 'bigger-font': activeButton === '#blog'}" class="custom-nav-link page-scroll" (click)="scrollTo('#blog')">Blog</button>
+        </li>
+      </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+  </div>
+</section>

@@ -1,0 +1,122 @@
+/* Styles for positioning the navigation items */
+.smart-scroll {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1030;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+}
+
+.smart-scroll .container-fluid,
+.smart-scroll .navbar {
+  background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-nav .nav-item {
+  margin-bottom: 10px;
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-bottom: 0;
+}
+
+
+
+/* Add margin between navigation items */
+.custom-nav-link {
+  margin-right: 20px; /* Adjust the value as needed */
+}
+
+.nav-item{
+  margin-top: 25px;
+  list-style-type: none;
+  margin-right: 20px;
+  text-align: right; /* Optionally, set text alignment for the entire list */
+
+}
+
+.display-height {
+  height: 80vh;
+}
+
+.half-height {
+  height: 50vh; /* Adjust the value as needed */
+}
+
+.right-menu {
+  position: absolute;
+  right: 0;
+}
+
+.custom-nav-link {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+  color: grey; /* Default color */
+  text-align: right; /* Set text alignment to right */
+  transition: transform 0.4s ease, color 0.4s ease, font-size 0.4s ease; /* Add transition for transform, color, and font-size properties */
+}
+
+.custom-nav-link.active,
+.custom-nav-link:hover {
+  color: white; /* Change the color to red for both active and hovered states */
+}
+
+.bigger-font {
+  font-size: 20px; /* Increase font size for bigger font class */
+}
+
+
+
+
+.nav-list{
+  margin-top: 25vh;
+}
+
+.bigger-font {
+  font-size: 18px; /* Adjust the font size as desired */
+}
+
+
+.custom-nav-link.active.bigger-font {
+  font-size: 24px; /* Increase font size for active button */
+}
+
+.btn-custom {
+  background-color: #131313;
+  color: white;
+}
+.btn-oval {
+  border-radius: 15px; /* Adjust the value as needed to achieve the desired oval shape */
+}
+
+
+.btn-custom:hover {
+  background-color: #2a2a2a;
+  color: #fffcfc;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .container-fluid {
+    position: relative;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+}
