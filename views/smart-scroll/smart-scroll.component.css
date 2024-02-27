@@ -92,6 +92,8 @@
 }
 
 .btn-custom {
+  margin-top: 20px;
+  margin-right: 8px;
   background-color: #131313;
   color: white;
 }

@@ -1,5 +1,5 @@
 <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
-  <div ngxSlickItem *ngFor="let image of images">
+  <div ngxSlickItem *ngFor="let image of imagesRecent">
     <img [src]="image?.img" alt="img" class="carousel-img">
   </div>
 </ngx-slick-carousel>

@@ -9,9 +9,11 @@ export class CarouselComponent {
   slideConfig={
     slidesToShow:1,
     slidesToScroll:1,
-    dots: true
+    dots: true,
+    prevArrow:false,
+    nextArrow:false
   }
-  images = [
+  imagesRecent = [
     { img: "assets/img/recent-1.jpg" },
     { img: "assets/img/recent-2.jpg" },
     { img: "assets/img/recent-3.jpg" }

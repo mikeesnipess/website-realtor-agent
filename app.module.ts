@@ -8,6 +8,7 @@ import { RecentComponent } from './views/recent/recent.component';
 import { CarouselComponent } from './views/carousel/carousel.component';
 import {SlickCarouselModule} from "ngx-slick-carousel";
 
+
 @NgModule({
   declarations: [
     AppComponent,
